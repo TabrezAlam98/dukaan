@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Payout from './components/Payout';
 
 function App() {
   return (
     <div className="App">
-
+     <Payout/>
     </div>
   );
 }
