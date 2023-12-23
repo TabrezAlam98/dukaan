@@ -52,7 +52,7 @@ const Payout = () => {
             <i class="fa-solid fa-angle-down"></i>
           </Box>
         </Flex>
-        <Box w="100%" h="100%" m="auto" mt="10px">
+        <Box w="100%" h="600px" m="auto" mt="10px" >
           <Flex
             p="8px 16px 8px 16px"
             fontSize="14px"
@@ -182,7 +182,7 @@ const Payout = () => {
             bg="gray.600"
             w="90%"
             m="auto"
-            mt="80px"
+            mt="180px"
             p="8px"
             border="1px"
             borderRadius="5px"
@@ -207,14 +207,14 @@ const Payout = () => {
       <Box w="85%" position="absolute" right="0">
         <Flex p="5px">
           <Box w="30%">
-            <Text fontSize="12px" mt="4px">
+            <Text fontSize="14px" mt="6px">
               How it works
             </Text>
           </Box>
 
           <Box w="30%">
-            <Flex h="25px" bg="#F2F2F2" borderRadius="5px">
-              <Box ml="5px" fontSize="12px" mt="3px">
+            <Flex h="30px" bg="#F2F2F2" borderRadius="5px">
+              <Box ml="5px" fontSize="12px" mt="5px">
                 <i class="fas fa-magnifying-glass"></i>
               </Box>
 
@@ -228,10 +228,10 @@ const Payout = () => {
           <Spacer />
           <Box w="10%">
             <Flex>
-              <Box w="25px" h="100%" bg="#F2F2F2" borderRadius="10px">
+              <Box w="28px" h="100%" bg="#F2F2F2" borderRadius="10px">
                 <i class="fa-solid fa-bullhorn"></i>
               </Box>
-              <Box ml="10px" w="25px" h="100%" bg="#F2F2F2" borderRadius="50%">
+              <Box ml="10px" w="28px" h="100%" bg="#F2F2F2" borderRadius="50%">
                 <i class="fa-solid fa-caret-down"></i>
               </Box>
             </Flex>
@@ -241,7 +241,7 @@ const Payout = () => {
         {/* .......overView Box......... */}
         <Box h="100%" bg="#F2F2F2">
           <Flex w="90%" m="auto" mt="5px">
-            <Text fontSize="16px" lineHeight="20px" fontWeight="500">
+            <Text fontSize="20px" lineHeight="20px" fontWeight="500">
               Overview
             </Text>
             <Spacer />
@@ -260,18 +260,18 @@ const Payout = () => {
 
           <Flex w="90%" m="auto" mt="15px">
             <Box color="white" w="30%" borderRadius="5px" bg="#146EB4">
-              <Text fontSize="10px" mt="12px" ml="7px" textAlign="left">
+              <Text fontSize="12px" mt="12px" ml="7px" textAlign="left">
                 Next Payout
               </Text>
               <Flex p="6px">
-                <Text fontSize="18px">₹2,321.23</Text>
+                <Text fontSize="20px">₹2,321.23</Text>
                 <Spacer />
                 <Text fontSize="12px">
                   <u>23 orders</u>
                 </Text>
               </Flex>
               <Flex
-                fontSize="10px"
+                fontSize="12px"
                 p="7px"
                 mt="10px"
                 bg="#0E4F82"
@@ -292,11 +292,11 @@ const Payout = () => {
               borderRadius="5px"
               bg="white"
             >
-              <Text fontSize="10px" mt="12px" ml="7px" textAlign="left">
+              <Text fontSize="12px" mt="12px" ml="7px" textAlign="left">
                 Amount Pending
               </Text>
               <Flex p="6px">
-                <Text fontSize="18px">₹92,312.30</Text>
+                <Text fontSize="20px">₹92,312.30</Text>
                 <Spacer />
                 <Text fontSize="12px" color="#146EB4">
                   <u>13 orders</u>
@@ -312,11 +312,11 @@ const Payout = () => {
               borderRadius="5px"
               bg="white"
             >
-              <Text fontSize="10px" mt="12px" ml="7px" textAlign="left">
+              <Text fontSize="12px" mt="12px" ml="7px" textAlign="left">
                 Amount Processes
               </Text>
 
-              <Text fontSize="18px" textAlign="left" ml="7px" mt="5px">
+              <Text fontSize="20px" textAlign="left" ml="7px" mt="5px">
                 ₹23,92,312.19
               </Text>
             </Box>
@@ -324,21 +324,22 @@ const Payout = () => {
 
           <Text
             textAlign="left"
-            m="20px 0 0 50px"
-            fontSize="16px"
+            m="30px 0 5px 60px"
+            fontSize="20px"
             lineHeight="20px"
             fontWeight="500"
           >
             Transactions | This Month
           </Text>
           <Button
-            ml="-70%"
+            ml="-73%"
             mt="10px"
             h="25px"
-            fontSize="12px"
+            fontSize="14px"
             bg="#146EB4"
             color="white"
             borderRadius="20px"
+           
           >
             Payouts (22)
           </Button>
@@ -346,7 +347,7 @@ const Payout = () => {
             ml="15px"
             mt="10px"
             h="25px"
-            fontSize="12px"
+            fontSize="14px"
             borderRadius="20px"
             bg="#808080"
             color="#F2F2F2"
@@ -355,8 +356,8 @@ const Payout = () => {
           </Button>
           <Box p="5px" w="90%" m="auto" mt="10px" bg="white">
             <Flex w="100%">
-              <Box w="15%" border="1px" borderColor="gray.400">
-                <Flex h="25px">
+              <Box w="20%" border="1px" borderColor="gray.400">
+                <Flex h="28px">
                   <Box ml="5px" fontSize="12px" mt="3px">
                     <i class="fas fa-magnifying-glass"></i>
                   </Box>
@@ -365,7 +366,7 @@ const Payout = () => {
                 </Flex>
               </Box>
               <Spacer />
-              <Box w="20%" mr="-108px">
+              <Box w="20%" mr="-150px">
                 <Flex>
                   <Box h="100%" border="1px" borderColor="gray.400">
                     <Flex p="2px 5px 2px 5px">
